@@ -1,1 +1,99 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+h1{
+    font-size: 50px;
+    padding: 5px 50px;
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.div-busqueda{
+    padding: 5px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 1px 10px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    margin: 20px 5px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.btn-1 {
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+  }
+  .btn-1:hover {
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  }
+
+  .div-imagen{
+    padding: 1px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .div-nombre{
+    padding: 5px 20px; 
+    display: flex;
+    justify-content: center;
+  }
+
+  img{
+    height: 200px;
+    width: 200px;
+  }
+
+  .etiqueta{
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .dato{
+    margin-top: 7px;
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container{
+    padding: 20px;
+    width: 400px 100px;
+    background-color: rgb(228, 245, 255);
+    border-radius: 5%;
+    border: 2px solid blue;
+  }

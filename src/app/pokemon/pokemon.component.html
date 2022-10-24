@@ -1,0 +1,36 @@
+
+<div class="div-busqueda">
+    <input type="text" [(ngModel)]="name">
+    <button class="custom-btn btn-1"(click)="search()">Buscar</button>
+</div>
+
+<div class="container">
+    <div class="div-imagen">
+        <img src="{{urlImage}}" alt=".">
+    </div>
+    <div class="div-nombre">
+        <p class="etiqueta">🔤 Nombre: </p>
+        <p class="dato">{{name2}}</p>
+    </div>
+    <div class="div-nombre">
+        <p class="etiqueta">🔰 Tipo: </p>
+        <p class="dato">{{type}}</p>
+    </div>
+    <div class="div-nombre">
+        <p class="etiqueta">💗 Vida: </p>
+        <p class="dato">{{health}}</p>
+    </div>
+    <div class="div-nombre">
+        <p class="etiqueta">🗡 Ataque: </p>
+        <p class="dato">{{attack}}</p>
+    </div>
+    <div class="div-nombre">
+        <p class="etiqueta">🛡 Defensa: </p>
+        <p class="dato">{{defense}}</p>
+    </div>
+    <div class="div-nombre">
+        <p class="etiqueta">⏩ Velocidad: </p>
+        <p class="dato">{{speed}}</p>
+    </div>
+</div>
+
