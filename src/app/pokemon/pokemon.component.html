@@ -4,33 +4,36 @@
     <button class="custom-btn btn-1"(click)="search()">Buscar</button>
 </div>
 
+<div class="c1">
+
 <div class="container">
     <div class="div-imagen">
-        <img src="{{urlImage}}" alt=".">
+        <img src="{{urlImage}}" alt="">
     </div>
     <div class="div-nombre">
-        <p class="etiqueta">🔤 Nombre: </p>
-        <p class="dato">{{name2}}</p>
+        <p class="etiqueta">🔤 Nombre: {{name2}}</p>
     </div>
     <div class="div-nombre">
-        <p class="etiqueta">🔰 Tipo: </p>
-        <p class="dato">{{type}}</p>
+        <p class="etiqueta">🔰 Tipo: {{type}}</p>
     </div>
     <div class="div-nombre">
-        <p class="etiqueta">💗 Vida: </p>
-        <p class="dato">{{health}}</p>
+        <p class="etiqueta">💗 Vida: {{health}}</p>
     </div>
     <div class="div-nombre">
-        <p class="etiqueta">🗡 Ataque: </p>
-        <p class="dato">{{attack}}</p>
+        <p class="etiqueta">🗡 Ataque: {{attack}}</p>
     </div>
     <div class="div-nombre">
-        <p class="etiqueta">🛡 Defensa: </p>
-        <p class="dato">{{defense}}</p>
+        <p class="etiqueta">🛡 Defensa: {{defense}}</p>
     </div>
     <div class="div-nombre">
-        <p class="etiqueta">⏩ Velocidad: </p>
-        <p class="dato">{{speed}}</p>
+        <p class="etiqueta">⏩ Velocidad: {{speed}}</p>
     </div>
 </div>
 
+<div class="examples">
+    <ul>
+        <td>Ejemplos</td>
+        <li *ngFor="let pokemon of name3">{{pokemon.name}}</li>
+    </ul>
+</div>
+</div>

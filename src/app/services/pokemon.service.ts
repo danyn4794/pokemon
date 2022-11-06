@@ -14,4 +14,8 @@ export class PokemonService {
     return this.http.get(`${this.url}/${name}`)
   }
 
+  getPokemon2(){
+    return this.http.get(`${this.url}`)
+  }
+
 }

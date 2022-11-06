@@ -17,9 +17,17 @@ export class PokemonComponent implements OnInit {
   defense: string;
   speed: string;
 
+  name3: Array<any> = [];
+
   constructor(private pokemonService : PokemonService) { }
 
   ngOnInit(): void {
+
+    this.pokemonService.getPokemon2().subscribe((data: any) => {
+      this.name3 = data.results;
+      console.log(data.results.name);
+    })
+    
   }
 
     search(){
